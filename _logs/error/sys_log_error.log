@@ -1,0 +1,1 @@
+2020-06-16 17:20:07.469 [RMI TCP Connection(6)-172.16.65.122] ERROR com.alibaba.druid.pool.DruidDataSource - testWhileIdle is true, validationQuery not set
