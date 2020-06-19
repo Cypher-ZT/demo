@@ -1,0 +1,1407 @@
+2020-06-17 09:39:19.516 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 15036 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 09:39:19.578 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 09:39:19.726 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 09:39:19.726 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 09:39:22.469 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 09:39:23.899 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 09:39:23.927 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:39:23.927 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 09:39:23.928 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 09:39:24.111 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 09:39:24.112 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4384 ms
+2020-06-17 09:39:26.407 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:39:29.748 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 09:39:29.758 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 09:39:29.829 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:39:29.885 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 09:39:29.890 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 14.69 seconds (JVM running for 17.689)
+2020-06-17 09:39:31.964 [RMI TCP Connection(21)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 09:39:31.966 [RMI TCP Connection(21)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 09:39:32.004 [RMI TCP Connection(21)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 38 ms
+2020-06-17 09:39:32.148 [RMI TCP Connection(20)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 09:39:32.711 [RMI TCP Connection(20)-172.16.65.122] INFO  p6spy - 2020-06-17 09:39:32:711 | took 15ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 09:39:32.718 [RMI TCP Connection(20)-172.16.65.122] INFO  p6spy - 2020-06-17 09:39:32:718 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 09:40:03.395 [Thread-19] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:40:03.396 [Thread-19] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 09:40:03.475 [Thread-19] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 09:44:20.574 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 19384 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 09:44:20.577 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 09:44:20.613 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 09:44:20.613 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 09:44:21.451 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 09:44:21.968 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 09:44:21.978 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:44:21.978 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 09:44:21.979 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 09:44:22.088 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 09:44:22.088 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1474 ms
+2020-06-17 09:44:23.474 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:44:24.897 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 09:44:24.901 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 09:44:24.936 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:44:24.954 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 09:44:24.957 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 5.087 seconds (JVM running for 6.659)
+2020-06-17 09:44:25.806 [RMI TCP Connection(3)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 09:44:25.806 [RMI TCP Connection(3)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 09:44:25.813 [RMI TCP Connection(3)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-06-17 09:44:25.828 [RMI TCP Connection(4)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 09:44:25.982 [RMI TCP Connection(4)-172.16.65.122] INFO  p6spy - 2020-06-17 09:44:25:982 | took 8ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 09:44:25.987 [RMI TCP Connection(4)-172.16.65.122] INFO  p6spy - 2020-06-17 09:44:25:987 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 09:45:28.668 [Thread-15] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:45:28.669 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 09:45:28.674 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 09:45:49.080 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 7900 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 09:45:49.083 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 09:45:49.132 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 09:45:49.132 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 09:45:50.087 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 09:45:50.688 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 09:45:50.699 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:45:50.700 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 09:45:50.701 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 09:45:50.922 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 09:45:50.923 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1791 ms
+2020-06-17 09:45:52.593 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:45:54.152 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 09:45:54.156 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 09:45:54.197 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:45:54.223 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 09:45:54.226 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 5.947 seconds (JVM running for 8.096)
+2020-06-17 09:45:54.862 [RMI TCP Connection(5)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 09:45:54.863 [RMI TCP Connection(5)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 09:45:54.877 [RMI TCP Connection(5)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2020-06-17 09:45:54.899 [RMI TCP Connection(6)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 09:45:55.117 [RMI TCP Connection(6)-172.16.65.122] INFO  p6spy - 2020-06-17 09:45:55:117 | took 11ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 09:45:55.123 [RMI TCP Connection(6)-172.16.65.122] INFO  p6spy - 2020-06-17 09:45:55:123 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 09:46:39.215 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:46:39.216 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 09:46:39.222 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 09:46:44.485 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 12768 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 09:46:44.488 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 09:46:44.537 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 09:46:44.537 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 09:46:45.610 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 09:46:46.205 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 09:46:46.215 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:46:46.216 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 09:46:46.216 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 09:46:46.433 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 09:46:46.433 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1896 ms
+2020-06-17 09:46:47.641 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:46:49.146 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 09:46:49.150 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 09:46:49.192 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:46:49.220 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 09:46:49.224 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 5.637 seconds (JVM running for 7.513)
+2020-06-17 09:46:50.321 [RMI TCP Connection(4)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 09:46:50.322 [RMI TCP Connection(4)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 09:46:50.332 [RMI TCP Connection(4)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-06-17 09:46:50.349 [RMI TCP Connection(3)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 09:46:50.552 [RMI TCP Connection(3)-172.16.65.122] INFO  p6spy - 2020-06-17 09:46:50:552 | took 12ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 09:46:50.560 [RMI TCP Connection(3)-172.16.65.122] INFO  p6spy - 2020-06-17 09:46:50:560 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 09:52:19.649 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:52:19.650 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 09:52:19.655 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 09:52:24.738 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 7608 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 09:52:24.742 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 09:52:24.790 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 09:52:24.790 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 09:52:25.835 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 09:52:26.381 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 09:52:26.390 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:52:26.391 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 09:52:26.391 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 09:52:26.598 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 09:52:26.598 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1808 ms
+2020-06-17 09:52:27.794 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:52:29.314 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 09:52:29.318 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 09:52:29.359 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:52:29.387 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 09:52:29.392 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 5.539 seconds (JVM running for 7.268)
+2020-06-17 09:52:30.475 [RMI TCP Connection(3)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 09:52:30.476 [RMI TCP Connection(3)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 09:52:30.486 [RMI TCP Connection(3)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-06-17 09:52:30.507 [RMI TCP Connection(4)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 09:52:30.695 [RMI TCP Connection(4)-172.16.65.122] INFO  p6spy - 2020-06-17 09:52:30:695 | took 12ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 09:52:30.703 [RMI TCP Connection(4)-172.16.65.122] INFO  p6spy - 2020-06-17 09:52:30:702 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 09:52:58.031 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:52:58.031 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 09:52:58.036 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 09:53:02.472 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 13408 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 09:53:02.476 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 09:53:02.536 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 09:53:02.536 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 09:53:03.682 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 09:53:04.257 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 09:53:04.268 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:53:04.269 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 09:53:04.270 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 09:53:04.515 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 09:53:04.515 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1979 ms
+2020-06-17 09:53:06.081 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:53:07.574 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 09:53:07.578 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 09:53:07.616 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:53:07.642 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 09:53:07.646 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 6.07 seconds (JVM running for 8.183)
+2020-06-17 09:53:08.489 [RMI TCP Connection(5)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 09:53:08.490 [RMI TCP Connection(5)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 09:53:08.501 [RMI TCP Connection(5)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-06-17 09:53:08.517 [RMI TCP Connection(6)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 09:53:08.696 [RMI TCP Connection(6)-172.16.65.122] INFO  p6spy - 2020-06-17 09:53:08:696 | took 10ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 09:53:08.703 [RMI TCP Connection(6)-172.16.65.122] INFO  p6spy - 2020-06-17 09:53:08:703 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 09:54:36.958 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:54:36.959 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 09:54:36.965 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 09:54:43.599 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 15828 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 09:54:43.602 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 09:54:43.658 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 09:54:43.658 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 09:54:44.844 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 09:54:45.430 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 09:54:45.439 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:54:45.440 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 09:54:45.440 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 09:54:45.554 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 09:54:45.555 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1896 ms
+2020-06-17 09:54:46.648 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'moduleAController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.test.url' in value "${spring.test.url}"
+2020-06-17 09:54:46.648 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-06-17 09:54:46.652 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-17 09:54:46.677 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-17 09:55:40.083 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 4168 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 09:55:40.086 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 09:55:40.131 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 09:55:40.132 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 09:55:41.082 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 09:55:41.577 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 09:55:41.586 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:55:41.587 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 09:55:41.587 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 09:55:41.778 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 09:55:41.779 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1647 ms
+2020-06-17 09:55:43.131 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 09:55:44.941 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 09:55:44.945 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 09:55:44.986 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 09:55:45.017 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 09:55:45.021 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 5.814 seconds (JVM running for 7.572)
+2020-06-17 09:55:46.403 [RMI TCP Connection(10)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 09:55:46.403 [RMI TCP Connection(10)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 09:55:46.412 [RMI TCP Connection(10)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-06-17 09:55:46.428 [RMI TCP Connection(9)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 09:55:46.633 [RMI TCP Connection(9)-172.16.65.122] INFO  p6spy - 2020-06-17 09:55:46:633 | took 12ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 09:55:46.640 [RMI TCP Connection(9)-172.16.65.122] INFO  p6spy - 2020-06-17 09:55:46:639 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 10:03:14.811 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:03:14.812 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 10:03:14.817 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 10:06:29.202 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 7848 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:06:29.205 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:06:29.251 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:06:29.251 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:06:29.883 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'druidDataSource' defined in class path resource [com/bonc/config/DruidDataSource.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidDataSource; factoryMethodName=druidDataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/bonc/config/DruidDataSource.class]] for bean 'druidDataSource': There is already [Generic bean: class [com.bonc.config.DruidDataSource]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\ideaFolder\demo\config\target\classes\com\bonc\config\DruidDataSource.class]] bound.
+2020-06-17 10:06:29.895 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-17 10:13:11.341 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 18256 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:13:11.344 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:13:11.397 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:13:11.397 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:13:12.026 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'druidDataSource' defined in class path resource [com/bonc/config/DruidDataSource.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=druidDataSource; factoryMethodName=druidDataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/bonc/config/DruidDataSource.class]] for bean 'druidDataSource': There is already [Generic bean: class [com.bonc.config.DruidDataSource]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [E:\ideaFolder\demo\config\target\classes\com\bonc\config\DruidDataSource.class]] bound.
+2020-06-17 10:13:12.036 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-17 10:14:01.583 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 14160 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:14:01.586 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:14:01.636 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:14:01.636 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:14:02.701 [restartedMain] WARN  org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'druidDataSource' defined in class path resource [com/bonc/config/DruidDataSource.class]: factory-bean reference points back to the same bean definition
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:721)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:681)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:649)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1605)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:491)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:613)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:605)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:869)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:857)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:844)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:795)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.bonc.PaymentApplication.main(PaymentApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2020-06-17 10:17:01.074 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 5928 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:17:01.078 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:17:01.131 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:17:01.131 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:17:02.680 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 10:17:02.691 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:17:02.692 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 10:17:02.692 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 10:17:02.796 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 10:17:02.796 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1664 ms
+2020-06-17 10:17:04.192 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:17:04.417 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 10:17:04.421 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 10:17:04.460 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:17:04.482 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 10:17:04.486 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 4.246 seconds (JVM running for 5.951)
+2020-06-17 10:17:05.951 [RMI TCP Connection(5)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 10:17:05.951 [RMI TCP Connection(5)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 10:17:05.958 [RMI TCP Connection(5)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-06-17 10:17:05.968 [RMI TCP Connection(4)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 10:17:06.150 [RMI TCP Connection(4)-172.16.65.122] INFO  p6spy - 2020-06-17 10:17:06:149 | took 9ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 10:17:06.154 [RMI TCP Connection(4)-172.16.65.122] INFO  p6spy - 2020-06-17 10:17:06:154 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 10:17:06.161 [RMI TCP Connection(4)-172.16.65.122] WARN  o.s.boot.actuate.jdbc.DataSourceHealthIndicator - DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection: dbType not support : null, url jdbc:p6spy:mysql://172.16.15.92:3306/airita?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:85)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:107)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:102)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:38)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:108)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:83)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:70)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:75)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-17 10:20:40.404 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:20:40.405 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-06-17 10:20:40.405 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-06-17 10:20:40.405 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 10:20:40.411 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 10:20:45.580 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 1596 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:20:45.584 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:20:45.634 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:20:45.635 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:20:47.109 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 10:20:47.119 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:20:47.119 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 10:20:47.119 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 10:20:47.228 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 10:20:47.228 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1593 ms
+2020-06-17 10:20:48.607 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:20:48.828 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 10:20:48.831 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 10:20:48.868 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:20:48.890 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 10:20:48.893 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 4.188 seconds (JVM running for 5.914)
+2020-06-17 10:20:49.206 [RMI TCP Connection(3)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 10:20:49.206 [RMI TCP Connection(3)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 10:20:49.212 [RMI TCP Connection(3)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-06-17 10:20:50.398 [RMI TCP Connection(5)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 10:20:50.570 [RMI TCP Connection(5)-172.16.65.122] INFO  p6spy - 2020-06-17 10:20:50:569 | took 9ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 10:20:50.575 [RMI TCP Connection(5)-172.16.65.122] INFO  p6spy - 2020-06-17 10:20:50:575 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 10:20:50.581 [RMI TCP Connection(5)-172.16.65.122] WARN  o.s.boot.actuate.jdbc.DataSourceHealthIndicator - DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection: dbType not support : null, url jdbc:p6spy:mysql://172.16.15.92:3306/airita?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:85)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:107)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:102)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:38)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:108)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:83)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:70)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:75)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-17 10:30:37.377 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:30:37.378 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-06-17 10:30:37.378 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-06-17 10:30:37.378 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 10:30:37.384 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 10:30:43.788 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 11516 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:30:43.791 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:30:43.842 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:30:43.842 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:30:45.007 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 10:30:45.618 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 10:30:45.627 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:30:45.629 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 10:30:45.630 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 10:30:45.818 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 10:30:45.818 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1976 ms
+2020-06-17 10:30:46.350 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:30:48.056 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 10:30:48.060 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 10:30:48.102 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:30:48.130 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 10:30:48.134 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 5.198 seconds (JVM running for 6.922)
+2020-06-17 10:30:49.132 [RMI TCP Connection(4)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 10:30:49.133 [RMI TCP Connection(4)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 10:30:49.141 [RMI TCP Connection(4)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-06-17 10:30:49.157 [RMI TCP Connection(3)-172.16.65.122] WARN  o.s.boot.actuate.jdbc.DataSourceHealthIndicator - DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: url not set
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:107)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:102)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:38)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:108)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:83)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:70)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:75)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor42.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: url not set
+	at com.alibaba.druid.pool.DruidDataSource.resolveDriver(DruidDataSource.java:1210)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:887)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1379)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:109)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	... 47 common frames omitted
+2020-06-17 10:31:03.557 [Thread-15] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:31:03.558 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 10:31:03.559 [Thread-15] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 10:31:23.743 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 8304 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:31:23.747 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:31:23.799 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:31:23.799 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:31:24.846 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 10:31:25.411 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 10:31:25.421 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:31:25.422 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 10:31:25.422 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 10:31:25.639 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 10:31:25.639 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1840 ms
+2020-06-17 10:31:26.792 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-17 10:31:26.815 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-06-17 10:31:26.832 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-17 10:32:20.487 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 5468 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:32:20.490 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:32:20.535 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:32:20.535 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:32:21.477 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 10:32:21.970 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 10:32:21.979 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:32:21.980 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 10:32:21.980 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 10:32:22.162 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 10:32:22.163 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1628 ms
+2020-06-17 10:32:23.490 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:32:25.338 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 10:32:25.343 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 10:32:25.383 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:32:25.409 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 10:32:25.413 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 5.85 seconds (JVM running for 7.539)
+2020-06-17 10:32:26.765 [RMI TCP Connection(10)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 10:32:26.766 [RMI TCP Connection(10)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 10:32:26.773 [RMI TCP Connection(10)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-06-17 10:32:27.380 [RMI TCP Connection(11)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 10:32:27.536 [RMI TCP Connection(11)-172.16.65.122] INFO  p6spy - 2020-06-17 10:32:27:536 | took 9ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 10:32:27.543 [RMI TCP Connection(11)-172.16.65.122] INFO  p6spy - 2020-06-17 10:32:27:543 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 10:32:40.113 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:32:40.114 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 10:32:40.119 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 10:32:46.602 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 9348 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:32:46.605 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:32:46.658 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:32:46.658 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:32:48.195 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 10:32:48.206 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:32:48.206 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 10:32:48.207 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 10:32:48.318 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 10:32:48.318 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1660 ms
+2020-06-17 10:32:49.565 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:32:49.791 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 10:32:49.795 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 10:32:49.836 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:32:49.860 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 10:32:49.863 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 4.048 seconds (JVM running for 5.726)
+2020-06-17 10:32:50.294 [RMI TCP Connection(3)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 10:32:50.294 [RMI TCP Connection(3)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 10:32:50.301 [RMI TCP Connection(3)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-06-17 10:32:51.544 [RMI TCP Connection(5)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 10:32:51.702 [RMI TCP Connection(5)-172.16.65.122] INFO  p6spy - 2020-06-17 10:32:51:702 | took 8ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 10:32:51.707 [RMI TCP Connection(5)-172.16.65.122] INFO  p6spy - 2020-06-17 10:32:51:707 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 10:32:51.710 [RMI TCP Connection(5)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-06-17 10:32:51.734 [Druid-ConnectionPool-Create-1674477249] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-2} failContinuous is true
+2020-06-17 10:33:32.690 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:33:32.691 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-06-17 10:33:32.692 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-06-17 10:33:32.692 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 10:33:32.694 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 10:33:32.695 [RMI TCP Connection(5)-172.16.65.122] WARN  o.s.boot.actuate.jdbc.DataSourceHealthIndicator - DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:107)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:102)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:38)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:108)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:83)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:70)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:75)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.druid.pool.DataSourceDisableException: null
+	at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2091)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+2020-06-17 10:33:39.660 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 13324 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:33:39.664 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:33:39.713 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:33:39.713 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:33:41.217 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 10:33:41.227 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:33:41.228 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 10:33:41.228 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 10:33:41.338 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 10:33:41.338 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1625 ms
+2020-06-17 10:33:42.751 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:33:42.983 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 10:33:42.986 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 10:33:43.026 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:33:43.048 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 10:33:43.051 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 4.179 seconds (JVM running for 5.872)
+2020-06-17 10:33:43.368 [RMI TCP Connection(6)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 10:33:43.550 [RMI TCP Connection(6)-172.16.65.122] INFO  p6spy - 2020-06-17 10:33:43:550 | took 10ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 10:33:43.556 [RMI TCP Connection(6)-172.16.65.122] INFO  p6spy - 2020-06-17 10:33:43:556 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 10:33:43.559 [RMI TCP Connection(6)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-06-17 10:33:43.586 [Druid-ConnectionPool-Create-119556458] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-2} failContinuous is true
+2020-06-17 10:33:45.185 [RMI TCP Connection(9)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 10:33:45.186 [RMI TCP Connection(9)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 10:33:45.192 [RMI TCP Connection(9)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-06-17 10:35:12.835 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:35:12.836 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-06-17 10:35:12.837 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-06-17 10:35:12.837 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 10:35:12.839 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 10:35:12.841 [RMI TCP Connection(6)-172.16.65.122] WARN  o.s.boot.actuate.jdbc.DataSourceHealthIndicator - DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:107)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:102)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:38)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:108)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:83)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:70)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:75)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.druid.pool.DataSourceDisableException: null
+	at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2091)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+2020-06-17 10:35:18.035 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 7644 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:35:18.038 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:35:18.091 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:35:18.091 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:35:19.662 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 10:35:19.673 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:35:19.674 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 10:35:19.674 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 10:35:19.783 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 10:35:19.783 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1692 ms
+2020-06-17 10:35:20.987 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-17 10:35:21.013 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-06-17 10:35:21.029 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-17 10:36:11.583 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 18548 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 10:36:11.586 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 10:36:11.636 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 10:36:11.636 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 10:36:13.092 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 10:36:13.103 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:36:13.103 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 10:36:13.103 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 10:36:13.213 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 10:36:13.213 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1577 ms
+2020-06-17 10:36:14.693 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:36:14.924 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 10:36:14.928 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 10:36:14.970 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 10:36:14.997 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 10:36:15.001 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 4.292 seconds (JVM running for 5.957)
+2020-06-17 10:36:16.566 [RMI TCP Connection(8)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 10:36:16.567 [RMI TCP Connection(8)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 10:36:16.573 [RMI TCP Connection(8)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-06-17 10:36:16.592 [RMI TCP Connection(7)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 10:36:16.779 [RMI TCP Connection(7)-172.16.65.122] INFO  p6spy - 2020-06-17 10:36:16:779 | took 8ms | statement | connection 0
+ /* ping */ SELECT 1;
+2020-06-17 10:36:16.785 [RMI TCP Connection(7)-172.16.65.122] INFO  p6spy - 2020-06-17 10:36:16:785 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 10:36:16.787 [RMI TCP Connection(7)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-06-17 10:36:16.811 [Druid-ConnectionPool-Create-1544845723] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-2} failContinuous is true
+2020-06-17 10:42:43.909 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 10:42:43.909 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-06-17 10:42:43.911 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-06-17 10:42:43.911 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 10:42:43.913 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 10:42:43.915 [RMI TCP Connection(7)-172.16.65.122] WARN  o.s.boot.actuate.jdbc.DataSourceHealthIndicator - DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:107)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:102)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:38)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:108)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:83)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:70)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:75)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor40.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.druid.pool.DataSourceDisableException: null
+	at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2091)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+2020-06-17 11:01:39.381 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 18868 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 11:01:39.385 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 11:01:39.436 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 11:01:39.436 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 11:01:40.543 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 11:01:41.103 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 11:01:41.112 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 11:01:41.113 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 11:01:41.113 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 11:01:41.301 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 11:01:41.302 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1866 ms
+2020-06-17 11:01:41.443 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-17 11:01:41.603 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-17 11:01:41.609 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-06-17 11:01:41.624 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-17 11:02:13.903 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 7796 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 11:02:13.907 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 11:02:13.966 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 11:02:13.966 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 11:02:15.130 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 11:02:15.685 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 11:02:15.695 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 11:02:15.696 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 11:02:15.696 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 11:02:15.901 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 11:02:15.902 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1936 ms
+2020-06-17 11:02:16.312 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 11:02:18.118 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 11:02:18.123 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 11:02:18.165 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 11:02:18.195 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 11:02:18.199 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 5.215 seconds (JVM running for 6.976)
+2020-06-17 11:02:18.710 [RMI TCP Connection(5)-172.16.65.122] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 11:02:18.713 [Druid-ConnectionPool-Create-1424800114] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2020-06-17 11:02:19.847 [RMI TCP Connection(7)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 11:02:19.847 [RMI TCP Connection(7)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 11:02:19.855 [RMI TCP Connection(7)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-06-17 11:02:47.899 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 11:02:47.901 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 11:02:47.903 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 11:02:47.906 [RMI TCP Connection(5)-172.16.65.122] WARN  o.s.boot.actuate.jdbc.DataSourceHealthIndicator - DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:107)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:102)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:38)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:108)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:83)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:70)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:75)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.druid.pool.DataSourceDisableException: null
+	at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2091)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+2020-06-17 11:06:20.706 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 4120 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 11:06:20.709 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 11:06:20.753 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 11:06:20.753 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 11:06:21.785 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 11:06:22.424 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 11:06:22.433 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 11:06:22.433 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 11:06:22.434 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 11:06:22.626 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 11:06:22.627 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1874 ms
+2020-06-17 11:06:22.811 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 11:06:23.059 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 11:06:24.942 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 11:06:24.945 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 11:06:24.986 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 11:06:25.012 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 11:06:25.015 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 5.114 seconds (JVM running for 6.837)
+2020-06-17 11:06:26.417 [RMI TCP Connection(9)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 11:06:26.417 [RMI TCP Connection(9)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 11:06:26.422 [Druid-ConnectionPool-Create-876777718] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2020-06-17 11:06:26.424 [RMI TCP Connection(9)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-06-17 11:06:29.219 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 11:06:29.220 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 11:06:29.221 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 11:06:29.225 [RMI TCP Connection(8)-172.16.65.122] WARN  o.s.boot.actuate.jdbc.DataSourceHealthIndicator - DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:107)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:102)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:38)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:108)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:83)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:70)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:75)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor41.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.druid.pool.DataSourceDisableException: null
+	at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2091)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:339)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:273)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1065)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1060)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1029)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:948)
+2020-06-17 11:31:17.997 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 172 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 11:31:18.000 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 11:31:18.050 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 11:31:18.051 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 11:31:19.272 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 11:31:19.794 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 11:31:19.891 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 11:31:19.891 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 11:31:19.892 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 11:31:20.008 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 11:31:20.008 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1957 ms
+2020-06-17 11:31:20.157 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-17 11:31:21.386 [restartedMain] INFO  p6spy - 2020-06-17 11:31:21:386 | took 11ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-17 11:31:21.389 [restartedMain] INFO  p6spy - 
+2020-06-17 11:31:21.411 [restartedMain] INFO  p6spy - 2020-06-17 11:31:21:411 | took 1ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-17 11:31:21.411 [restartedMain] INFO  p6spy - 
+2020-06-17 11:31:21.430 [restartedMain] INFO  p6spy - 2020-06-17 11:31:21:430 | took 1ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-17 11:31:21.430 [restartedMain] INFO  p6spy - 
+2020-06-17 11:31:21.448 [restartedMain] INFO  p6spy - 2020-06-17 11:31:21:448 | took 1ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-17 11:31:21.449 [restartedMain] INFO  p6spy - 
+2020-06-17 11:31:21.468 [restartedMain] INFO  p6spy - 2020-06-17 11:31:21:468 | took 0ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 11:31:21.469 [restartedMain] INFO  p6spy - 
+2020-06-17 11:31:21.476 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 11:31:21.751 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 11:31:23.320 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 11:31:23.325 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 11:31:23.396 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 11:31:23.426 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 11:31:23.431 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 6.336 seconds (JVM running for 8.518)
+2020-06-17 11:31:25.091 [RMI TCP Connection(3)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 11:31:25.091 [RMI TCP Connection(3)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 11:31:25.102 [RMI TCP Connection(3)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-06-17 11:31:25.110 [RMI TCP Connection(2)-172.16.65.122] INFO  p6spy - 2020-06-17 11:31:25:110 | took 1ms | statement | connection 4
+ /* ping */ SELECT 1;
+2020-06-17 11:31:25.120 [RMI TCP Connection(2)-172.16.65.122] INFO  p6spy - 2020-06-17 11:31:25:120 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 11:33:50.502 [Thread-19] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 11:33:50.502 [Thread-19] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 11:33:50.512 [Thread-19] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 15:53:23.912 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 15532 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 15:53:23.917 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 15:53:23.978 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 15:53:23.979 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 15:53:25.154 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 15:53:25.785 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 15:53:25.795 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 15:53:25.796 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 15:53:25.796 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 15:53:26.002 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 15:53:26.002 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2023 ms
+2020-06-17 15:53:26.191 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-17 15:53:27.430 [restartedMain] INFO  p6spy - 2020-06-17 15:53:27:430 | took 12ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-17 15:53:27.433 [restartedMain] INFO  p6spy - 
+2020-06-17 15:53:27.450 [restartedMain] INFO  p6spy - 2020-06-17 15:53:27:450 | took 1ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-17 15:53:27.451 [restartedMain] INFO  p6spy - 
+2020-06-17 15:53:27.467 [restartedMain] INFO  p6spy - 2020-06-17 15:53:27:466 | took 1ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-17 15:53:27.467 [restartedMain] INFO  p6spy - 
+2020-06-17 15:53:27.481 [restartedMain] INFO  p6spy - 2020-06-17 15:53:27:481 | took 1ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-17 15:53:27.482 [restartedMain] INFO  p6spy - 
+2020-06-17 15:53:27.496 [restartedMain] INFO  p6spy - 2020-06-17 15:53:27:496 | took 1ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 15:53:27.497 [restartedMain] INFO  p6spy - 
+2020-06-17 15:53:27.504 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 15:53:27.814 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:53:29.646 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 15:53:29.652 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 15:53:29.721 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 15:53:29.753 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 15:53:29.758 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 6.81 seconds (JVM running for 9.082)
+2020-06-17 15:53:30.217 [RMI TCP Connection(3)-172.16.65.122] INFO  p6spy - 2020-06-17 15:53:30:216 | took 2ms | statement | connection 4
+ /* ping */ SELECT 1;
+2020-06-17 15:53:30.226 [RMI TCP Connection(3)-172.16.65.122] INFO  p6spy - 2020-06-17 15:53:30:226 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 15:53:31.668 [RMI TCP Connection(5)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 15:53:31.668 [RMI TCP Connection(5)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 15:53:31.679 [RMI TCP Connection(5)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-06-17 15:53:33.435 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 15:53:33.436 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 15:53:33.448 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 18:18:36.115 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 11924 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 18:18:36.119 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 18:18:36.175 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 18:18:36.176 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 18:18:37.482 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bonc]' package. Please check your configuration.
+2020-06-17 18:18:38.056 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 18:18:38.067 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 18:18:38.068 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 18:18:38.068 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 18:18:38.234 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 18:18:38.235 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2059 ms
+2020-06-17 18:18:38.417 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-17 18:18:39.725 [restartedMain] INFO  p6spy - 2020-06-17 18:18:39:725 | took 14ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-17 18:18:39.728 [restartedMain] INFO  p6spy - 
+2020-06-17 18:18:39.744 [restartedMain] INFO  p6spy - 2020-06-17 18:18:39:744 | took 1ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-17 18:18:39.744 [restartedMain] INFO  p6spy - 
+2020-06-17 18:18:39.759 [restartedMain] INFO  p6spy - 2020-06-17 18:18:39:759 | took 1ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-17 18:18:39.759 [restartedMain] INFO  p6spy - 
+2020-06-17 18:18:39.772 [restartedMain] INFO  p6spy - 2020-06-17 18:18:39:772 | took 0ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-17 18:18:39.773 [restartedMain] INFO  p6spy - 
+2020-06-17 18:18:39.786 [restartedMain] INFO  p6spy - 2020-06-17 18:18:39:786 | took 0ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 18:18:39.787 [restartedMain] INFO  p6spy - 
+2020-06-17 18:18:39.792 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 18:18:39.943 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bonc.payment.service.PaymentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-06-17 18:18:39.944 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 18:18:39.952 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 18:18:39.957 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-17 18:18:39.979 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-17 18:20:23.569 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 7972 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 18:20:23.572 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 18:20:23.629 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 18:20:23.629 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 18:20:25.316 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 18:20:25.418 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 18:20:25.418 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 18:20:25.418 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 18:20:25.524 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 18:20:25.524 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1895 ms
+2020-06-17 18:20:25.666 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-17 18:20:26.763 [restartedMain] INFO  p6spy - 2020-06-17 18:20:26:763 | took 8ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-17 18:20:26.767 [restartedMain] INFO  p6spy - 
+2020-06-17 18:20:26.783 [restartedMain] INFO  p6spy - 2020-06-17 18:20:26:783 | took 1ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-17 18:20:26.783 [restartedMain] INFO  p6spy - 
+2020-06-17 18:20:26.797 [restartedMain] INFO  p6spy - 2020-06-17 18:20:26:796 | took 1ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-17 18:20:26.797 [restartedMain] INFO  p6spy - 
+2020-06-17 18:20:26.810 [restartedMain] INFO  p6spy - 2020-06-17 18:20:26:810 | took 1ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-17 18:20:26.811 [restartedMain] INFO  p6spy - 
+2020-06-17 18:20:26.825 [restartedMain] INFO  p6spy - 2020-06-17 18:20:26:825 | took 1ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 18:20:26.826 [restartedMain] INFO  p6spy - 
+2020-06-17 18:20:26.831 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 18:20:26.942 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bonc.payment.service.PaymentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-06-17 18:20:26.942 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 18:20:26.948 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 18:20:26.953 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-17 18:20:26.968 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-17 18:22:36.456 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 4788 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 18:22:36.460 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 18:22:36.504 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 18:22:36.504 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 18:22:38.147 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 18:22:38.255 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 18:22:38.256 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 18:22:38.256 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 18:22:38.371 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 18:22:38.371 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1867 ms
+2020-06-17 18:22:38.540 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-17 18:22:39.969 [restartedMain] INFO  p6spy - 2020-06-17 18:22:39:969 | took 10ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-17 18:22:39.972 [restartedMain] INFO  p6spy - 
+2020-06-17 18:22:39.985 [restartedMain] INFO  p6spy - 2020-06-17 18:22:39:985 | took 0ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-17 18:22:39.985 [restartedMain] INFO  p6spy - 
+2020-06-17 18:22:39.997 [restartedMain] INFO  p6spy - 2020-06-17 18:22:39:997 | took 0ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-17 18:22:39.998 [restartedMain] INFO  p6spy - 
+2020-06-17 18:22:40.010 [restartedMain] INFO  p6spy - 2020-06-17 18:22:40:010 | took 1ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-17 18:22:40.011 [restartedMain] INFO  p6spy - 
+2020-06-17 18:22:40.023 [restartedMain] INFO  p6spy - 2020-06-17 18:22:40:023 | took 0ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 18:22:40.024 [restartedMain] INFO  p6spy - 
+2020-06-17 18:22:40.030 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 18:22:40.156 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bonc.payment.service.PaymentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-06-17 18:22:40.156 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 18:22:40.161 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 18:22:40.165 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-17 18:22:40.182 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-17 18:28:57.041 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 20420 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 18:28:57.044 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 18:28:57.117 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 18:28:57.118 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 18:28:58.991 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 18:28:59.000 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 18:28:59.002 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 18:28:59.002 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 18:28:59.183 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 18:28:59.184 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2065 ms
+2020-06-17 18:28:59.323 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-17 18:29:00.468 [restartedMain] INFO  p6spy - 2020-06-17 18:29:00:468 | took 9ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-17 18:29:00.470 [restartedMain] INFO  p6spy - 
+2020-06-17 18:29:00.484 [restartedMain] INFO  p6spy - 2020-06-17 18:29:00:484 | took 0ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-17 18:29:00.485 [restartedMain] INFO  p6spy - 
+2020-06-17 18:29:00.499 [restartedMain] INFO  p6spy - 2020-06-17 18:29:00:499 | took 1ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-17 18:29:00.499 [restartedMain] INFO  p6spy - 
+2020-06-17 18:29:00.515 [restartedMain] INFO  p6spy - 2020-06-17 18:29:00:515 | took 1ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-17 18:29:00.515 [restartedMain] INFO  p6spy - 
+2020-06-17 18:29:00.529 [restartedMain] INFO  p6spy - 2020-06-17 18:29:00:529 | took 0ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 18:29:00.530 [restartedMain] INFO  p6spy - 
+2020-06-17 18:29:00.535 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 18:29:00.655 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bonc.payment.service.PaymentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-06-17 18:29:00.655 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 18:29:00.661 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 18:29:00.665 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-06-17 18:29:00.684 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-06-17 18:32:56.912 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 14732 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 18:32:56.915 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 18:32:56.965 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 18:32:56.965 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 18:32:58.650 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 18:32:58.754 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 18:32:58.755 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 18:32:58.755 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 18:32:58.880 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 18:32:58.880 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1915 ms
+2020-06-17 18:32:59.059 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-17 18:33:00.219 [restartedMain] INFO  p6spy - 2020-06-17 18:33:00:219 | took 10ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-17 18:33:00.222 [restartedMain] INFO  p6spy - 
+2020-06-17 18:33:00.242 [restartedMain] INFO  p6spy - 2020-06-17 18:33:00:242 | took 1ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-17 18:33:00.242 [restartedMain] INFO  p6spy - 
+2020-06-17 18:33:00.263 [restartedMain] INFO  p6spy - 2020-06-17 18:33:00:263 | took 1ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-17 18:33:00.264 [restartedMain] INFO  p6spy - 
+2020-06-17 18:33:00.283 [restartedMain] INFO  p6spy - 2020-06-17 18:33:00:283 | took 1ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-17 18:33:00.284 [restartedMain] INFO  p6spy - 
+2020-06-17 18:33:00.303 [restartedMain] INFO  p6spy - 2020-06-17 18:33:00:303 | took 2ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 18:33:00.304 [restartedMain] INFO  p6spy - 
+2020-06-17 18:33:00.310 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 18:33:02.054 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 18:33:02.322 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 18:33:02.325 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 18:33:02.376 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 18:33:02.400 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 18:33:02.404 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 6.407 seconds (JVM running for 8.2)
+2020-06-17 18:33:02.726 [RMI TCP Connection(3)-172.16.65.122] INFO  p6spy - 2020-06-17 18:33:02:726 | took 1ms | statement | connection 4
+ /* ping */ SELECT 1;
+2020-06-17 18:33:02.733 [RMI TCP Connection(3)-172.16.65.122] INFO  p6spy - 2020-06-17 18:33:02:732 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 18:33:03.895 [RMI TCP Connection(5)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 18:33:03.895 [RMI TCP Connection(5)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 18:33:03.902 [RMI TCP Connection(5)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-06-17 18:35:28.447 [http-nio-8001-exec-1] INFO  p6spy - 2020-06-17 18:35:28:447 | took 2ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 18:35:28.448 [http-nio-8001-exec-1] INFO  p6spy - 
+2020-06-17 18:35:28.502 [http-nio-8001-exec-1] INFO  p6spy - 2020-06-17 18:35:28:502 | took 18ms | statement | connection 4
+ INSERT INTO payment  ( id )  VALUES  ( 1273202595737112577 );
+2020-06-17 18:36:05.785 [http-nio-8001-exec-2] INFO  p6spy - 2020-06-17 18:36:05:784 | took 2ms | statement | connection 4
+ INSERT INTO payment  ( id,
+serial )  VALUES  ( 1273202752348229634,
+'yanzening' );
+2020-06-17 18:37:55.439 [http-nio-8001-exec-3] INFO  p6spy - 2020-06-17 18:37:55:439 | took 3ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 18:37:55.440 [http-nio-8001-exec-3] INFO  p6spy - 
+2020-06-17 18:37:55.450 [http-nio-8001-exec-3] INFO  p6spy - 2020-06-17 18:37:55:450 | took 5ms | statement | connection 4
+ INSERT INTO payment  ( id,
+serial )  VALUES  ( 1273203212270440450,
+'yanzening' );
+2020-06-17 18:39:27.589 [http-nio-8001-exec-4] INFO  p6spy - 2020-06-17 18:39:27:589 | took 3ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 18:39:27.591 [http-nio-8001-exec-4] INFO  p6spy - 
+2020-06-17 18:39:27.601 [http-nio-8001-exec-4] INFO  p6spy - 2020-06-17 18:39:27:601 | took 5ms | statement | connection 4
+ INSERT INTO payment  ( id,
+serial )  VALUES  ( 1273203598779748353,
+'yanzening' );
+2020-06-17 18:39:33.773 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 18:39:33.774 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 18:39:33.787 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-06-17 18:39:45.037 [restartedMain] INFO  com.bonc.PaymentApplication - Starting PaymentApplication on DESKTOP-MH3M6EU with PID 13376 (E:\ideaFolder\demo\payment8001\target\classes started by 1 in E:\ideaFolder\demo)
+2020-06-17 18:39:45.040 [restartedMain] INFO  com.bonc.PaymentApplication - The following profiles are active: config,dev
+2020-06-17 18:39:45.086 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-17 18:39:45.086 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-17 18:39:46.631 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-06-17 18:39:46.730 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-06-17 18:39:46.731 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-17 18:39:46.732 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-06-17 18:39:46.840 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-17 18:39:46.841 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1755 ms
+2020-06-17 18:39:46.979 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-06-17 18:39:48.317 [restartedMain] INFO  p6spy - 2020-06-17 18:39:48:317 | took 10ms | statement | connection 0
+ SELECT 1 FROM DUAL;
+2020-06-17 18:39:48.320 [restartedMain] INFO  p6spy - 
+2020-06-17 18:39:48.333 [restartedMain] INFO  p6spy - 2020-06-17 18:39:48:333 | took 0ms | statement | connection 1
+ SELECT 1 FROM DUAL;
+2020-06-17 18:39:48.333 [restartedMain] INFO  p6spy - 
+2020-06-17 18:39:48.347 [restartedMain] INFO  p6spy - 2020-06-17 18:39:48:347 | took 1ms | statement | connection 2
+ SELECT 1 FROM DUAL;
+2020-06-17 18:39:48.347 [restartedMain] INFO  p6spy - 
+2020-06-17 18:39:48.359 [restartedMain] INFO  p6spy - 2020-06-17 18:39:48:359 | took 0ms | statement | connection 3
+ SELECT 1 FROM DUAL;
+2020-06-17 18:39:48.360 [restartedMain] INFO  p6spy - 
+2020-06-17 18:39:48.374 [restartedMain] INFO  p6spy - 2020-06-17 18:39:48:374 | took 1ms | statement | connection 4
+ SELECT 1 FROM DUAL;
+2020-06-17 18:39:48.374 [restartedMain] INFO  p6spy - 
+2020-06-17 18:39:48.381 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-06-17 18:39:50.604 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-17 18:39:50.889 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-17 18:39:50.893 [restartedMain] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-17 18:39:50.954 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-06-17 18:39:50.976 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-06-17 18:39:50.979 [restartedMain] INFO  com.bonc.PaymentApplication - Started PaymentApplication in 6.947 seconds (JVM running for 9.09)
+2020-06-17 18:39:51.377 [RMI TCP Connection(7)-172.16.65.122] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 18:39:51.377 [RMI TCP Connection(7)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-17 18:39:51.384 [RMI TCP Connection(7)-172.16.65.122] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-06-17 18:39:52.685 [RMI TCP Connection(9)-172.16.65.122] INFO  p6spy - 2020-06-17 18:39:52:685 | took 1ms | statement | connection 4
+ /* ping */ SELECT 1;
+2020-06-17 18:39:52.693 [RMI TCP Connection(9)-172.16.65.122] INFO  p6spy - 2020-06-17 18:39:52:693 | took 0ms | resultset | connection -1
+ 1 = 1;
+2020-06-17 18:40:07.532 [http-nio-8001-exec-1] INFO  p6spy - 2020-06-17 18:40:07:532 | took 6ms | statement | connection 4
+ INSERT INTO _payment  ( id,
+serial )  VALUES  ( 1273203765197266945,
+'yanzening' );
+2020-06-17 18:40:51.034 [http-nio-8001-exec-2] INFO  p6spy - 2020-06-17 18:40:51:034 | took 4ms | statement | connection 4
+ INSERT INTO _payment  ( id,
+serial )  VALUES  ( 1273203948765175809,
+'yanzening002' );
+2020-06-17 18:41:50.584 [http-nio-8001-exec-6] INFO  p6spy - 2020-06-17 18:41:50:584 | took 2ms | statement | connection 4
+ SELECT id,serial FROM _payment WHERE id=1273203765197266945 ;
+2020-06-17 18:41:50.585 [http-nio-8001-exec-6] INFO  p6spy - 2020-06-17 18:41:50:585 | took 0ms | resultset | connection 4
+ SELECT id,serial FROM _payment WHERE id=1273203765197266945 ;
+2020-06-17 18:41:50.595 [http-nio-8001-exec-6] INFO  p6spy - 2020-06-17 18:41:50:594 | took 0ms | resultset | connection -1
+ 1 = '1273203765197266945', 2 = 'yanzening', id = 1273203765197266945, serial = 'yanzening';
+2020-06-17 18:42:53.053 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-17 18:42:53.053 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-06-17 18:42:53.062 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

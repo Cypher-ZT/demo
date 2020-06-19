@@ -2,10 +2,10 @@
 <configuration scan="true" scanPeriod="30 seconds">
     <!--继承spring boot提供的logback配置-->
     <!--<include resource="org/springframework/boot/logging/logback/base.xml" />--> <!--设置系统日志目录-->
-    <property name="APP_DIR" value="spring-boot-log"/>
+    <property name="LOG_PATH" value="${LOG_PATH:-.}"/>
     <if condition='isDefined("catalina.home")'>
         <then>
-            <property name="log_folder" value="${catalina.home}/logs"/>
+            <property name="log_folder" value="${catalina.home}/_logs"/>
         </then>
         <else>
             <property name="log_folder" value="./_logs"/>

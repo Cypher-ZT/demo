@@ -1,0 +1,18 @@
+logging:
+    file:
+        path: ./_logs
+
+spring:
+  datasource:
+    #   数据源基本配置
+    #      password: bonc!QAZ
+    url: jdbc:p6spy:mysql://172.16.15.92:3306/airita?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: airita
+    password: hfAKcmIuJPTt6kvD0UGogh8XoLfD5BZciQp5rM8GPR03FJOP5w79m106hsZRrgkG4LxtyhJ7mdLHeDCKT9vCSA==
+    driver-class-name: com.p6spy.engine.spy.P6SpyDriver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+        #   数据源基本配置
+        connect-properties:
+            config.decrypt: true
+            config.decrypt.key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJC7aDzvbuyrypvsAg1SCwH7Z4AIuFznt0YrxbXq4AWLU7CE6T47cgExLB2Q7wwAL9RXwnC8cuQ+zgS4mmVnm4kCAwEAAQ==
